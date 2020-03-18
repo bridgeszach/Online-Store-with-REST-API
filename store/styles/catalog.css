@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+}
+
+.catalog-container {
+    width: 200rem;
+}
+
+.item {
+    border: 1px solid rgb(186, 182, 182);
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.item img {
+    width: 190px;
+    height: 210px;
+    margin: 5px;
+    padding-bottom: 2rem;
+}
+
+.button-div {
+    text-align: center;
+}
+
+.item-price {
+    color: rgb(158, 30, 30);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}

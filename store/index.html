@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+
+    <title>Catalog</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Catalog <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="admin" class="nav-link" href="admin.html">Admin</a>
+                    </li>
+
+                </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <input id="search-txt" class="form-control mr-sm-2" type="search" placeholder="Search Our Inventory"
+                        aria-label="Search">
+                    <button id="search-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col">
+                <div id="catalog" class="catalog-container">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts/jQuery3-4-1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/catalog.js"></script>
+
+</body>
+
+</html>
